@@ -1,0 +1,32 @@
+{
+  "name": "soco-be",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/www",
+    "dev": "nodemon NODE_ENV=development ./bin/www",
+    "prod": "nodemon NODE_ENV=production ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ideliamn/soco-clone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "debug": "^4.3.4",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "http-errors": "^2.0.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20",
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.25.7",
+    "sequelize-cli": "^6.5.2"
+  }
+}
